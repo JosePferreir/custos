@@ -1,0 +1,17 @@
+.link_button {
+    margin-top: 1rem;
+    a{
+        background-color: #222;
+        color:#fff;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        border: 1px solid #efefef;
+        transition: 0.3s;
+    }
+    a:hover{
+        background-color: #efefef;
+        color: #222;
+        border: 1px solid #222;
+        transition: 0.3s;
+    }
+}

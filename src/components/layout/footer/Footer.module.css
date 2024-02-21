@@ -1,0 +1,26 @@
+.footer{
+    background-color: #222;
+    padding: 2.5rem;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.costs{
+    color:#ffbb33
+}
+.footer_icon{
+    font-size: 26px;
+}
+.footer_icon:hover{
+    color: #ffbb33;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {
+      "id": "1735",
+      "name": "teste projeto",
+      "orcamento": "9999",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "c932",
+      "name": "cliente",
+      "orcamento": "12312312",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "edf7",
+      "name": "José Pedro Ferreira Da Silva",
+      "orcamento": "123",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "f6ee",
+      "name": "userId",
+      "orcamento": "12312",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "fb22",
+      "name": "companyId",
+      "orcamento": "123123",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
