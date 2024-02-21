@@ -3,10 +3,10 @@ import style from './ProjectForm.module.scss';
 import Select from './Select';
 import React,{useState, useEffect} from 'react';
 
-function ProjectForm({handleSubmit, projectData}){
+function ProjectForm({handleSubmit, projectData, btnText}){
 
+    const [project, setProject] = useState(projectData || {})
     const [categories, setCategories] = useState([])
-    const [project, setProject] = useState(projectData || {});
 
     useEffect(() => {
         fetch('http://localhost:5000/categories', {
@@ -24,7 +24,7 @@ function ProjectForm({handleSubmit, projectData}){
 
     const submitForm = (e) => {
         e.preventDefault();
-        console.log(project)
+        console.log(projectData)
         handleSubmit(project);
     }
 
@@ -47,7 +47,7 @@ function ProjectForm({handleSubmit, projectData}){
                     label="Nome do projeto"
                     name="name"
                     handleOnChange={handleChange}
-                    velue={project.name}/>
+                    value={project.name}/>
             </div>
             <div>
                 <Input 
@@ -56,7 +56,7 @@ function ProjectForm({handleSubmit, projectData}){
                     label="Orçamento do Projeto"
                     name="orcamento"
                     handleOnChange={handleChange}
-                    velue={project.orcamento}/>
+                    value={project.orcamento}/>
             </div>
             <div>
                 <Select
@@ -67,7 +67,7 @@ function ProjectForm({handleSubmit, projectData}){
                     value={project.category ? project.category.id : ''}/>
             </div>
             <div>
-                <div className={style.btn} onClick={submitForm}>Criar Projeto</div>
+                <div className={style.btn} onClick={submitForm}>{btnText}</div>
             </div>
         </form>
     )

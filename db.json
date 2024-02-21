@@ -1,37 +1,34 @@
 {
   "projects": [
     {
-      "id": "1735",
-      "name": "teste projeto",
-      "orcamento": "9999",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "costs": 0,
-      "services": []
-    },
-    {
       "id": "c932",
-      "name": "cliente",
-      "orcamento": "12312312",
+      "name": "Cliente",
+      "orcamento": "1800",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "costs": 0,
-      "services": []
-    },
-    {
-      "id": "edf7",
-      "name": "José Pedro Ferreira Da Silva",
-      "orcamento": "123",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "costs": 0,
-      "services": []
+      "costs": 110,
+      "services": [
+        {
+          "name": "Primeiro",
+          "cost": "100",
+          "description": "ruim",
+          "id": "e20b2670-577a-4ff3-b4fa-094aa267c0a1"
+        },
+        {
+          "name": "segundo",
+          "cost": "5",
+          "description": "boim",
+          "id": "92e199ee-ca0b-4577-9e67-e7171bf53ae0"
+        },
+        {
+          "name": "cliente",
+          "cost": "5",
+          "description": "ruim",
+          "id": "e9c46d00-5021-44e4-b508-f634a8024c5f"
+        }
+      ]
     },
     {
       "id": "f6ee",
@@ -45,12 +42,12 @@
       "services": []
     },
     {
-      "id": "fb22",
-      "name": "companyId",
-      "orcamento": "123123",
+      "id": "7a24",
+      "name": "React app",
+      "orcamento": "5000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "costs": 0,
       "services": []
@@ -58,19 +55,19 @@
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Infra"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Desenvolvimento"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Design"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Planejamento"
     }
   ]
